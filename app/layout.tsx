@@ -4,15 +4,15 @@ import './globals.css'; // This imports your CSS
 import Navbar from './components/Navbar';
 
 // Site metadata for SEO, OpenGraph and social previews.
-// NOTE: replace `https://bone-cadets.example` with your production URL.
-export const metadata: Metadata = {
+  // NOTE: production URL set to the Vercel deployment.
+  export const metadata: Metadata = {
   title: 'Bone Cadets - Professional Dog Walking in San Francisco',
   description: 'Professional dog walking and group play in San Francisco',
-  metadataBase: new URL('https://bone-cadets.example'),
+  metadataBase: new URL('https://bonecadet.vercel.app'),
   openGraph: {
     title: 'Bone Cadets - Professional Dog Walking in San Francisco',
     description: 'Professional dog walking and group play in San Francisco',
-    url: 'https://bone-cadets.example',
+    url: 'https://bonecadet.vercel.app',
     siteName: 'Bone Cadets',
     images: ['/favicon.ico'],
     locale: 'en_US',
